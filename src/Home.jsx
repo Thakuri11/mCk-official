@@ -8,7 +8,7 @@ export default function Login() {
         <h1 className="title">Welcome to Team Mck Official</h1>
         <nav className="navbar">
           <div className="logo">
-            <img src="./mCk1.png" alt="" />
+            <img src="/mCk1.png" alt="" />
           </div>
           <div className="nav-links">
             <li>
