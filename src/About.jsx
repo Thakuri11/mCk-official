@@ -1,8 +1,12 @@
 import "./AboutStyle.css";
 import { useEffect, useState } from "react";
+import grp1 from "./assets/IMG_2049.jpeg";
+import grp2 from "./assets/IMG_2050.jpeg";
 export default function About() {
   const [current, setCurrent] = useState(0);
-  const images = ["./IMG_2050.jpeg", "./IMG_2049.jpeg",];
+  const images = [
+  grp1,grp2
+  ];
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % images.length);

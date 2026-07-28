@@ -33,9 +33,9 @@ header {
   font-weight: bold;
 }
 
-@keyframes scroll {
+@keyframes scroll {    
   from {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 
   to {
@@ -65,6 +65,8 @@ header {
   height: 650px;
   width: 650px;
   margin: 20px;
+  padding: 10px;
+  border: 10px solid rgba(179, 81, 16, 0.315);
   /* border-radius: 50%; */
 }
 
