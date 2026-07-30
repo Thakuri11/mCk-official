@@ -8,12 +8,12 @@
   & p {
     text-align: center;
     margin-top: 10px;
-    font-size: 35px;
+    font-size: 26px;
     font-weight: lighter;
   }
 }
 .display-cards {
-  margin-top: 8%;
+  margin-top: 5%;
   /* border: 5px solid; */
   padding: 10px;
   display: flex;
