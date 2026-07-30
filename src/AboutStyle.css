@@ -3,9 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  background-color: #cfdfcf;
-  font-family: Arial, sans-serif;
+.bg {
+  background-image: url("/aboutimg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 header {
   & h1 {
@@ -15,7 +17,7 @@ header {
 }
 .marquee {
   overflow: hidden;
-  background: #e42525;
+  background: #4e4545;
   color: white;
   padding: 12px 0;
 }
@@ -33,7 +35,7 @@ header {
   font-weight: bold;
 }
 
-@keyframes scroll {    
+@keyframes scroll {
   from {
     transform: translateY(0);
   }
@@ -43,31 +45,48 @@ header {
   }
 }
 .about {
+  margin: 20px;
+  width: 40%;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
   & h2,
   h3 {
     margin: 2rem;
+    color: springgreen;
+  
   }
   & .about-text {
     white-space: pre-line;
-    line-height: 1.8;
+    line-height: 1.1;
     text-align: justify;
     margin: 2rem;
-    font-size: larger;
+    font-size: large;
+    padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
   }
 }
-/* .about-img {
-    margin: 2rem;
-  & img {
-    width: 100%;
-  }
-} */
 .slider {
   height: 650px;
   width: 650px;
   margin: 20px;
   padding: 10px;
-  border: 10px solid rgba(179, 81, 16, 0.315);
-  /* border-radius: 50%; */
+  border: 10px solid;
+   padding: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
 }
 
 .slider img {

@@ -1,0 +1,73 @@
+.membershipBody {
+  /* background-image: url("./membership1.jpg"); */
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 800px;
+  padding: 20px;
+  & p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 35px;
+    font-weight: lighter;
+  }
+}
+.display-cards {
+  margin-top: 8%;
+  /* border: 5px solid; */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  & div {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(10px);
+    color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    /* border: 5px solid; */
+    width: 30%;
+    padding: 5px;
+    & h2 {
+      font-size: 26px;
+      font-weight: lighter;
+      margin-bottom: 15px;
+      text-align: center;
+    }
+    & ul {
+      list-style: none;
+      font-size: 23px;
+      & li {
+        /* box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35); */
+        text-align: center;
+        border: 2px solid rgba(255, 255, 255, 0.15);
+        border-radius: 8px;
+        padding: 10px 15px;
+        margin-bottom: 10px;
+        background: rgba(255, 255, 255, 0.05);
+      }
+    }
+  }
+}
+.join {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  align-items: center;
+  margin-left: 40%;
+  margin-top: 2%;
+  & span {
+    font-size: 24px;
+  }
+  & .join-btn {
+    display: inline-block;
+    font-size: 24px;
+    color: white;
+    border: 2px solid;
+    border-radius: 8px;
+    padding: 3px;
+    background-color: violet;
+    text-decoration: none;
+  }
+}
